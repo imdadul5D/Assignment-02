@@ -118,6 +118,24 @@
     }
     /* My Choose Me part End */
 
+    /* Satisfied Clients Part Start */
+    #happy_clients {
+        padding-bottom: 24px;
+    }
+    .happyClients {
+        width:95%;
+        margin: 0 auto;
+    }
+    .happy_client_main {
+        gap: 16px;
+        margin-bottom: 16px;
+        flex-direction: column;
+    }
+    .happy_client_main_2 {
+        gap: 16px;
+    }
+    /* Satisfied Clients Part End */
+
     /* Discount Part Start */
     #discount {
         padding-bottom: 24px;

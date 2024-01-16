@@ -324,6 +324,52 @@ a {
 }
 /* Why Choose Us Part End */
 
+/* Satisfied Clients Part Start */
+#happy_clients {
+    padding-bottom: 100px;
+}
+.happyClients {
+    width:33%;
+    position: relative;
+}
+.happy_client_main {
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.happy_client_main_2 {
+    justify-content: center;
+    gap: 24px;
+}
+.happyClients:hover .client_info {
+    visibility: visible;
+}
+.happyClients img {
+    border-radius: 16px;
+    width: 100%;
+}
+.client_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+    background-color: rgba(19, 19, 24, 0.50);
+}
+.client_info a {
+    font-size: 30px;
+    padding: 20px 0px;
+    color: #FFF;
+}
+.client_info a:hover {
+    color: #FF5400;
+}
+/* Satisfied Clients Part End */
+
 /* Discount Part Start */
 #discount {
     padding-bottom: 100px;
