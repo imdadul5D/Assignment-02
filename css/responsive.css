@@ -107,6 +107,9 @@
     .place_list img {
         width: 100%;
     }
+    .overlay p {
+        font-size: 20px;
+    }
     /* Destination Part End */
 
     /* My Choose Me part Start */
@@ -172,7 +175,6 @@
         font-size: 16px;
     }
     .discount_part button {
-
         font-size: 18px;
         padding: 8px 20px;
     }
